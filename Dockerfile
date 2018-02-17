@@ -1,4 +1,4 @@
-FROM python:3.6.4
+FROM python:3.5.0
 
 RUN apt-get update
 RUN apt-get install -y vim wget git
